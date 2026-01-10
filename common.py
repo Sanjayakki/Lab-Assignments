@@ -1,0 +1,5 @@
+m=list(map(int,input("enter the elements of list 1:").split()))
+n=list(map(int,input("enter the elements of list 2:").split()))
+common= set(m).intersection(set(n))
+countcommon=len(common)
+print("Number of common elements:",countcommon) 
